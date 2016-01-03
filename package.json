@@ -1,0 +1,35 @@
+{
+  "name": "badjs-installer",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "zmq": "^2.8.0",
+    "node-highcharts-exporting": "~0.0.3"
+  },
+  "scripts": {
+    "clone": "npm run clone-acceptor && npm run clone-mq && npm run clone-storage && npm run clone-web",
+    "clone-acceptor": "git clone https://github.com/BetterJS/badjs-acceptor.git",
+    "clone-mq": "git clone https://github.com/BetterJS/badjs-mq.git",
+    "clone-storage": "git clone https://github.com/BetterJS/badjs-storage.git",
+    "clone-web": "git clone https://github.com/BetterJS/badjs-web.git",
+
+    "install": "npm run install-acceptor && npm run install-mq && npm run install-storage && npm run install-web",
+    "install-acceptor": "cd badjs-acceptor && npm install",
+    "install-mq": "cd badjs-mq && npm install",
+    "install-storage": "cd badjs-storage && npm install",
+    "install-web": "cd badjs-web && npm install",
+
+    "start": "node ./start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BetterJS/badjs-installer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miniflycn/badjs-installer/issues"
+  },
+  "homepage": "https://github.com/miniflycn/badjs-installer"
+}
