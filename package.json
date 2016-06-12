@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "zmq": "^2.8.0",
     "node-highcharts-exporting": "~0.0.3"
   },
   "scripts": {
