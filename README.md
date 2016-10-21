@@ -1,14 +1,14 @@
 # badjs-installer
 badjs 快捷安装模块
 
-依赖以下组件：
+#### 依赖以下组件：
 - node.js
 - mongodb 存储上报数据
 - mysql 用于web管理系统数据存储，默认账号=root，密码=root，端口3306
 
 在安装前请确保mongodb和mysql已经启动。
 
-#### docker 部署
+### docker 部署
 [badjs-docker]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
 ``` javascript 
    // 下载images
@@ -19,7 +19,7 @@ badjs 快捷安装模块
  
 > 其中 mysql 是指定你的mysql 数据库，  mongodburl 是指向你的mongodb,  这个两个参数都是必须的
 
-#### Linux | macOS 安装
+### Linux | macOS 安装
 复制这行代码到命令行执行
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/BetterJS/badjs-installer/master/install.sh)"
