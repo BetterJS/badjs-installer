@@ -8,7 +8,7 @@ badjs 快捷安装模块
 
 在安装前请确保mongodb和mysql已经启动。
 
-### docker 部署
+## docker 部署
 [badjs-docker]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
 ``` bash 
 // 下载images
@@ -19,12 +19,12 @@ docker run -i -d -p 80:80 -p 8081:8081 docker.io/caihuijigood/badjs-docker bash 
  
 > 其中 mysql 是指定你的mysql 数据库，  mongodburl 是指向你的mongodb,  这个两个参数都是必须的
 
-### Linux | macOS 安装
+## Linux | macOS 安装
 复制这行代码到命令行执行
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/BetterJS/badjs-installer/master/install.sh)"
 ```
-#### Windows 安装
+## Windows 安装
 ```bat
 TODO
 ```
