@@ -10,7 +10,7 @@ badjs 快捷安装模块
 
 ### docker 部署
 [badjs-docker]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
-``` javascript 
+``` bash 
 // 下载images
 docker pull caihuijigood/badjs-docker
 // 启动
