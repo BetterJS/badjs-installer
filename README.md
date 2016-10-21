@@ -11,10 +11,10 @@ badjs 快捷安装模块
 ### docker 部署
 [badjs-docker]( https://hub.docker.com/r/caihuijigood/badjs-docker/) 
 ``` javascript 
-   // 下载images
-   docker pull caihuijigood/badjs-docker
-   // 启动
-   docker run -i -d -p 80:80 -p 8081:8081 docker.io/caihuijigood/badjs-docker bash badjs mysql=mysql://root:root@192.168.1.101:3306/badjs mongodb=mongodb://192.168.1.101:27017/badjs
+// 下载images
+docker pull caihuijigood/badjs-docker
+// 启动
+docker run -i -d -p 80:80 -p 8081:8081 docker.io/caihuijigood/badjs-docker bash badjs mysql=mysql://root:root@192.168.1.101:3306/badjs mongodb=mongodb://192.168.1.101:27017/badjs
 ```
  
 > 其中 mysql 是指定你的mysql 数据库，  mongodburl 是指向你的mongodb,  这个两个参数都是必须的
