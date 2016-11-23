@@ -28,3 +28,10 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/BetterJS/badjs-installer/m
 ```bat
 TODO
 ```
+
+## 支持的npm 命令
+```bat
+npm run clone
+npm run install
+npm run start
+```
